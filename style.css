@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: blanchedalmond;
+}
+/*Navbar*/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.logo img {
+  width: 80px;
+}
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 620px;
+
+  height: 40px;
+  border-radius: 40px;
+}
+.search-1 {
+  width: 400px;
+}
+.search-icon i {
+  background-color: rgb(166, 152, 0);
+  text-align: center;
+  padding: 12px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+.select-search {
+  border: none;
+  background-color: #f3f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.Korbs p {
+  color: #fff;
+}
+/*Navbar*/
+.baners {
+  background-color: darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 50px;
+}
+.banner-content ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 60px;
+  top: 65px;
+}
+.banner-content ul li {
+  margin: 0 8px;
+}
+.img-content img {
+  width: 100%;
+}
+/*Carde*/
+.caders {
+  background-color: rgb(173, 173, 173);
+  padding: 20px;
+}
+.boxes {
+  display: flex;
+  gap: 20px;
+}
+.box {
+  background-color: #fff;
+  padding: 20px;
+}
+.box img {
+  width: 250px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.box h3 {
+  margin-bottom: 10px;
+}
+#links {
+  color: blue;
+}
+#links:hover {
+  text-decoration: underline;
+  color: brown;
+}
+/*Banners2*/
+.banners-2 {
+  background-color: #37475a;
+  padding: 20px;
+  height: 50px;
+}
+.banners-2 a {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  font-size: 20px;
+}
+.banners-2 a:hover {
+  color: gray;
+  cursor: pointer;
+}
+/*Banners2*/
+/*Fotter*/
+footer {
+  background-color: #232f3e;
+  padding: 20px;
+}
+.footers {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fott h3 {
+  margin-bottom: 20px;
+}
+.fott a {
+  margin-bottom: 18px;
+}
+/*Fotter*/
